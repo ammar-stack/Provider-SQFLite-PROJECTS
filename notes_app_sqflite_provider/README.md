@@ -1,16 +1,8 @@
-# notes_app_sqflite_provider
+A simple notes app created using sqflite and provider state management in flutter.
 
-A new Flutter project.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img width="300" height="550" alt="image" src="https://github.com/user-attachments/assets/7940992b-f14f-494a-ac2b-65d8d5ca56ea" />
+<img width="300" height="550" alt="image" src="https://github.com/user-attachments/assets/3f189fb6-055e-4152-a187-b31b8d17a9c3" />
+<img width="300" height="550" alt="image" src="https://github.com/user-attachments/assets/720fa8c1-2994-42d1-ba17-0305932de463" />
+<img width="300" height="550" alt="image" src="https://github.com/user-attachments/assets/346b9a02-67e8-4916-aff2-374ca4f994e5" />
+<img width="300" height="550" alt="image" src="https://github.com/user-attachments/assets/6b16be66-d335-409a-b0c4-dc46f78afee9" />
