@@ -1,16 +1,14 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:notes_app_sqflite_provider/pages/homepage.dart';
 import 'package:notes_app_sqflite_provider/providers/notesprovider.dart';
 import 'package:provider/provider.dart';
 
 void main(){
-  MultiProvider(
-    providers: [
-      ChangeNotifierProvider(create: (_) => Notesprovider())
-    ],
-    
-    child: MyApp(),);
+  runApp(
+    ChangeNotifierProvider(
+    create: (_) =>Notesprovider()..notesData,
+    child: MyApp(),)
+  );
 }
 
 class MyApp extends StatelessWidget {

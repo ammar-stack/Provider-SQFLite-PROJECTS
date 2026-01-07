@@ -5,6 +5,10 @@ import 'package:notes_app_sqflite_provider/services/dbhelper.dart';
 class Notesprovider extends ChangeNotifier{
   List<NotesModel> notesData = [];
 
+  Notesprovider(){
+    getNotes();
+  }
+
   void getNotes() async{
     notesData = await Dbhelper.instance.getNotes();
     notifyListeners();
