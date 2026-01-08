@@ -13,7 +13,7 @@ class Dbhelper {
   static String TableName = 'todotable';
   static String idColumn = 'id';
   static String todoColumn = 'todo';
-  static String isDoneColumn = 'isDone';
+  static String isDoneColumn = 'isdone';
 
   Future<Database> getDB() async{
     return _db ??= await initDB();

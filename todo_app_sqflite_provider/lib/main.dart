@@ -1,8 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import 'package:todo_app_sqflite_provider/Pages/homepage.dart';
+import 'package:todo_app_sqflite_provider/providers/todoprovider.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(
+    ChangeNotifierProvider(
+      create: (_) => Todoprovider()..getToDos(),
+      child: MyApp(),)
+  );
 }
 
 class MyApp extends StatelessWidget {

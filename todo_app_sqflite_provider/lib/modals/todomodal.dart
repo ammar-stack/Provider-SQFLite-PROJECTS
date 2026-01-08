@@ -1,7 +1,7 @@
 class ToDoModal {
   int? id;
   String? todo;
-  bool? isdone;
+  int? isdone;
 
   ToDoModal({this.id, this.todo, this.isdone});
 
@@ -15,7 +15,7 @@ class ToDoModal {
     final Map<String, dynamic> data = new Map<String, dynamic>();
     data['id'] = this.id;
     data['todo'] = this.todo;
-    data['isdone'] = this.isdone;
+    data['isdone'] = this.isdone ;
     return data;
   }
 }
